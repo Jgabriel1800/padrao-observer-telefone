@@ -25,6 +25,7 @@ public class KeyPad {
      * Simula o usuario digitando um numero especifico, tecla por tecla.
      * Usado para reproduzir a saida de exemplo do enunciado.
      */
+    
     public void dial(String number) {
         for (char key : number.toCharArray()) {
             int digit = Character.getNumericValue(key);
