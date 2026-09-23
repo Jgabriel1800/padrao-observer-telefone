@@ -3,6 +3,8 @@
  * implementa esta interface. O PhoneModel so conhece esta interface,
  * nunca a UI.
  */
-public interface PhoneObserver {
+public interface PhoneObserver {k
+
     void onDigitAdded(int digit);
+    
 }
