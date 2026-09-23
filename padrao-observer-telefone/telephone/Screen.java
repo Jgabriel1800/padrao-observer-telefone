@@ -15,6 +15,7 @@ public class Screen {
         model.addObserver(digit -> System.out.println(digit));
 
         // Observador 2: quando o numero esta completo, mostra que esta discando
+        
         model.addObserver(digit -> {
             if (model.getDigits().size() == PHONE_NUMBER_LENGTH) {
                 System.out.println("Agora discando " + formatNumber() + "...");
