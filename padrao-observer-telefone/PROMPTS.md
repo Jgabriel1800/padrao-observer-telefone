@@ -21,7 +21,7 @@ Ferramenta: Claude (Anthropic). Anexos: `Lista Avaliativa I.pdf` (enunciado) e `
 >    olhando só para o código do modelo;
 > 4. aponte, na etapa de verificação, o que comparar entre a saída obtida e o exemplo do enunciado.
 
-## Passo a passo (tutorial) sugerido pela IA para esta questão
+## Passo a passo  sugerido pela IA para esta questão
 
 | Passo | O que fazer | Commit correspondente |
 |---|---|---|
