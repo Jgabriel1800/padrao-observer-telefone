@@ -12,7 +12,7 @@ public class KeyPad {
     }
 
     public void simulateKeyPresses(int numKeyPresses) {
-        final int NUM_POSSIBLE_DIGITS = 10; // digitos validos: 0 a 9
+        final int NUM_POSSIBLE_DIGITS = 10; 
         Random rnd = new Random();
         for (int i = 0; i < numKeyPresses; i++) {
             int newDigit = rnd.nextInt(NUM_POSSIBLE_DIGITS);
