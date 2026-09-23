@@ -7,9 +7,11 @@ import java.util.List;
  */
 public class PhoneModel {
     private final List<Integer> digits = new ArrayList<>();
+    
     private final List<PhoneObserver> observers = new ArrayList<>();
 
     public void addObserver(PhoneObserver observer) {
+
         observers.add(observer);
     }
 
